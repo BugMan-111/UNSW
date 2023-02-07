@@ -1,0 +1,14 @@
+————————————————————————————————————————————————————————————————————————————————
+Implicit Runge Kutta method
+data:
+k = 1 h = 10^(-1) max_error = 0.7748
+k = 2 h = 10^(-2) max_error = 1.1436e-04
+k = 3 h = 10^(-3) max_error = 1.1490e-08
+k = 4 h = 10^(-4) max_error = 1.3198e-12
+Convergence:
+k1 -> k2 = log10(E1/E2)/log10(10) = 3.8309
+k2 -> k3 = log10(E2/E3)/log10(10) = 3.9980
+k3 -> k4 = log10(E3/E4)/log10(10) = 3.9398
+
+Max Convergence = 3.9980
+This implies the order of convergence of Euler's methods is O(4).

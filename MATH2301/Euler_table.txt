@@ -1,0 +1,16 @@
+————————————————————————————————————————————————————————————————————————————————
+Euler's method
+data:
+k = 2 h = 10^(-2) max_error = 9.0907
+k = 3 h = 10^(-3) max_error = 0.7681
+k = 4 h = 10^(-4) max_error = 0.0770
+k = 5 h = 10^(-5) max_error = 0.0077
+k = 6 h = 10^(-6) max_error = 7.7069e-04
+Convergence:
+k2 -> k3 = log10(E2/E3)/log10(10) = 1.0732
+k3 -> k4 = log10(E3/E4)/log10(10) = 0.9989
+k4 -> k5 = log10(E4/E5)/log10(10) = 1
+k5 -> k6 = log10(E5/E6)/log10(10) = 0.9996
+
+Max Convergence = 1.0732
+This implies the order of convergence of Euler's methods is O(1).
