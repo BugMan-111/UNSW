@@ -6,7 +6,7 @@ To run the game
 <br />
 3.please go to https://gluonhq.com/products/javafx/ to download the correct version of JavaFX for your computer
 <br />
-4.import the Javafx to the java external(referenced) 
+4.import the Javafx to the java external(referenced) lib
 <br />
 --->(1).find jar files in javaFX: https://www.youtube.com/watch?v=WrfTuD-ngyQ&t=221s
     <br />
