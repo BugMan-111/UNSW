@@ -8,9 +8,9 @@ To run the game
 <br />
 4.import the Javafx to the java external(referenced) 
 <br />
-    +(1).find jar files in javaFX: https://www.youtube.com/watch?v=WrfTuD-ngyQ&t=221s
+--->(1).find jar files in javaFX: https://www.youtube.com/watch?v=WrfTuD-ngyQ&t=221s
     <br />
-    +(2).import jar file to vscode: https://www.youtube.com/watch?v=3Qm54znQX2E
+--->(2).import jar file to vscode: https://www.youtube.com/watch?v=3Qm54znQX2E
     <br />
 5.find the file LoopMania\src\unsw\loopmania\LoopManiaApplication.java
 <br />
