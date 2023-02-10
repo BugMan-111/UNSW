@@ -1,0 +1,65 @@
+            Test 1
+            Test 
+            
+            createDevice HandheldDevice DeviceA 30
+            createDevice LaptopDevice DeviceB 31
+            createDevice DesktopDevice DeviceC 32
+            createDevice DesktopDevice DeviceD 33
+            createDevice HandheldDevice DeviceE 34
+            createDevice LaptopDevice DeviceF 35
+            createDevice DesktopDevice DeviceG 36
+            createSatellite NasaSatellite Satellite1 10000 30
+            scheduleDeviceActivation DeviceA 00:00 400
+            scheduleDeviceActivation DeviceB 00:00 400
+            scheduleDeviceActivation DeviceC 00:00 400
+            scheduleDeviceActivation DeviceD 00:00 400
+            scheduleDeviceActivation DeviceE 00:00 400
+            scheduleDeviceActivation DeviceF 00:00 400
+            scheduleDeviceActivation DeviceG 00:00 400
+            simulate 1440
+            showWorldState
+
+            createDevice LaptopDevice DeviceA 30
+            createDevice LaptopDevice DeviceB 30.5
+            createDevice LaptopDevice DeviceC 31
+            createDevice LaptopDevice DeviceE 32
+            createDevice LaptopDevice DeviceF 32.5
+            createDevice DesktopDevice DeviceH 33.5
+            createDevice DesktopDevice DeviceG 33
+            createDevice DesktopDevice DeviceI 34
+            createDevice DesktopDevice DeviceJ 34.5
+            createDevice LaptopDevice DeviceD 31.5
+            createSatellite SovietSatellite Satellite1 10000 30
+            scheduleDeviceActivation DeviceA 00:00 180
+            scheduleDeviceActivation DeviceB 00:00 400
+            scheduleDeviceActivation DeviceC 00:00 400
+            scheduleDeviceActivation DeviceD 00:00 400
+            scheduleDeviceActivation DeviceE 00:00 400
+            scheduleDeviceActivation DeviceF 00:00 400
+            scheduleDeviceActivation DeviceG 00:00 400
+            scheduleDeviceActivation DeviceH 00:00 400
+            scheduleDeviceActivation DeviceI 00:00 400
+            scheduleDeviceActivation DeviceJ 03:00 220
+
+
+        private int XSateIndicator = -1;
+
+
+
+
+
+
+            createDevice HandheldDevice DeviceA 30
+            createSatellite NasaSatellite Satellite1 10000 30
+            createSatellite NasaSatellite Satellite2 10000 50
+            createSatellite NasaSatellite Satellite3 10000 0
+            createSatellite NasaSatellite Satellite4 10000 359
+            scheduleDeviceActivation DeviceA 00:00 400
+            scheduleDeviceActivation DeviceA 12:30 400
+            simulate 720
+            
+            
+
+            
+            
+
