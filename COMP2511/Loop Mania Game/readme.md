@@ -4,7 +4,7 @@ To run the game
 <br />
 2.import LoopMania folder(unziped LoopMania.zip) into any IDE(VS code is prefered) which supports Java
 <br />
-3.go to https://gluonhq.com/products/javafx/ to download the correct version of JavaFX for your computer
+3.go to https://gluonhq.com/products/javafx/ to download the correct version of JavaFX for your computer os
 <br />
 4.import the Javafx to the java external(referenced) lib
 <br />
